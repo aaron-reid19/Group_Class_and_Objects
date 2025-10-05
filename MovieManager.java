@@ -1,5 +1,18 @@
 package assignment1;
 
+//	Assignment 1
+//	Group 6
+//	Oct. 05, 2025
+
+//	MovieManager class loads in movie information from a given text file and applies each movie to the movie class.
+//	The following methods are used to access and add to the movie class:
+//		- loadMovieList()				Load movies from given text file, apply them to the movie class, and save movie objects to movies list.
+//		- displayMenu()					Display list of user options and return the selected option value.
+//		- addMovies()					Takes user input to create a new movie object and add it to movies list.
+//		- generateMovieListInYear()		Display all movies that match the given year parameter.
+//		- generateRandomMovieList()		Display a given number of random movies from the movies list.
+//		- saveMovieListToFile()			Convert movie objects from movie list back into strings and save to given text file.
+
 import java.io.IOException;
 import java.nio.file.*;
 import java.util.*;
@@ -115,3 +128,4 @@ public class MovieManager {
 		}
 	}
 }
+

@@ -1,5 +1,12 @@
 package assignment1;
 
+//	Assignment 1
+//	Group 6
+//	Oct. 05, 2025
+
+//	Movie class constructs objects based on the variables: duration, title, and year.
+//	Getters and toString are implemented based off of these variables.
+
 public class Movie {
 	// Data fields
 	int duration;
@@ -33,3 +40,4 @@ public class Movie {
 		return duration + "," + title + "," + year;
 	}
 }
+

@@ -1,5 +1,11 @@
 package assignment1;
 
+//	Assignment 1
+//	Group 6
+//	Oct. 05, 2025
+
+//	Driver class executes the methods from MovieManager class based on user input.
+
 public class Driver {
 
 	public static void main(String[] args) {
@@ -29,3 +35,4 @@ public class Driver {
 		}
 	}
 }
+
